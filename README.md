@@ -1,5 +1,5 @@
 ### 🟢 Buổi 1: Làm Quen với Kiểm Thử & ISTQB
-- **Ngày học:** 05/01/2026 (Bạn có thể thay đổi ngày này)
+- **Ngày học:** 05/01/2026
 - **Mục tiêu:** Nắm vững các khái niệm cơ bản về kiểm thử và nền tảng ISTQB.
 
 #### 1\. Nội dung đã học
@@ -18,3 +18,6 @@
 
 #### 3\. Minh chứng (Kết quả bài tập cantunsee.space/)
 ![cantunsee](https://github.com/user-attachments/assets/3bd1f970-41f6-47bc-8f5c-a43600f39b46)
+
+
+## Bài 1: Nguyên lý của kiểm thử
