@@ -13,10 +13,10 @@
 
 #### 2\. Thực hành & Bài tập
 
-- [x] Làm bài tập về [cantunsee.space/](https://cantunsee.space/).
+- [x] Làm bài tập về Can't Unsee
     - Đây là một công cụ giúp rèn luyện khả năng phát hiện lỗi giao diện người dùng (UI bugs).
 
-#### 3\. Minh chứng (Kết quả bài tập cantunsee.space/)
+#### 3\. Minh chứng 
 ![cantunsee](https://github.com/user-attachments/assets/3bd1f970-41f6-47bc-8f5c-a43600f39b46)
 
 <br>
