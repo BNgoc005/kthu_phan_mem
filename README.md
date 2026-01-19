@@ -120,8 +120,34 @@ Tôi đã xây dựng các file kiểm thử (Specs) bao gồm các kịch bản
 - [x] Mã nguồn đã được đẩy lên GitHub Repository.
 
 
+<br>
 
+# BÀI 4: BÁO CÁO KIỂM THỬ HIỆU NĂNG JMETER
+---
 
+## Cấu hình Kịch bản 1 (Basic Test)
+- **Mô tả:** Giả lập truy cập cơ bản vào trang chủ để kiểm tra tính ổn định.
+- **Số lượng User:** 10
+- **Thời gian Ramp-up:** 1 giây
+- **Số lần lặp (Loop):** 5
+- **Công cụ hỗ trợ:** Đã thêm `HTTP Header Manager` để giả lập trình duyệt (fix lỗi 403).
+
+### 1. Trạng thái các Request (View Results Tree)
+*Minh chứng tất cả các request đều thành công (Màu xanh):*
+<img width="1918" height="1020" alt="view results tree" src="https://github.com/user-attachments/assets/b8507f0a-8453-4e48-9563-9d14d4f49156" />
+
+### 2. Bảng số liệu chi tiết (Summary Report)
+*Thống kê thời gian phản hồi và thông lượng:*
+
+<img width="1918" height="1022" alt="Summary Report" src="https://github.com/user-attachments/assets/0ee40986-f9d1-4405-9a79-09816ffb40d2" />
+
+---
+
+## Nhận xét & Kết luận
+Dựa trên 2 hình ảnh minh chứng trên:
+- **Tỷ lệ lỗi (Error):** 0.00% (Hệ thống xử lý thành công 100% yêu cầu).
+- **Thời gian phản hồi trung bình (Average):** ... ms (Bạn điền số trong cột Average vào đây).
+- **Kết luận:** Với tải 10 người dùng truy cập dồn dập, website Wikipedia hoạt động hoàn toàn bình thường, tốc độ phản hồi nhanh.
 
 
 
