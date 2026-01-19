@@ -150,9 +150,32 @@ Dựa trên 2 hình ảnh minh chứng trên:
 - **Kết luận:** Với tải 10 người dùng truy cập dồn dập, website Wikipedia hoạt động hoàn toàn bình thường, tốc độ phản hồi nhanh.
 
 
+# Báo cáo Kết quả Kiểm thử Đơn vị (Unit Test Report)
 
+## 1. Tổng quan
+Báo cáo này trình bày kết quả đo độ bao phủ mã nguồn (Code Coverage) cho dự án `unit-test`. Việc kiểm thử được thực hiện bằng **JUnit** và đo lường bởi thư viện **JaCoCo**.
 
+## 2. Kết quả chi tiết
+Dưới đây là bảng thống kê độ bao phủ mã nguồn dựa trên báo cáo JaCoCo:
 
+| Chỉ số (Metric) | Đã bao phủ (Covered) | Tổng số (Total) | Tỷ lệ (Percentage) | Trạng thái |
+| :--- | :--- | :--- | :--- | :--- |
+| **Instructions** (Chỉ dẫn) | 89 | 89 | **100%** | ✅ Đạt |
+| **Branches** (Nhánh) | 22 | 24 | **91%** | ⚠️ Tốt |
+| **Lines** (Dòng lệnh) | 18 | 18 | **100%** | ✅ Đạt |
+| **Methods** (Phương thức) | 3 | 3 | **100%** | ✅ Đạt |
+| **Classes** (Lớp) | 1 | 1 | **100%** | ✅ Đạt |
+
+## 3. Phân tích kết quả
+* **Độ bao phủ dòng lệnh (Line Coverage):** Đạt tuyệt đối **100%**. Điều này chứng tỏ tất cả các dòng code trong chương trình đều đã được thực thi ít nhất một lần trong quá trình chạy test.
+* **Độ bao phủ nhánh (Branch Coverage):** Đạt **91%**.
+    * Tổng số nhánh: 24.
+    * Số nhánh bị bỏ lỡ (Missed): 2.
+    * *Nhận xét:* Tỷ lệ này rất cao, cho thấy các kịch bản logic chính (if/else, loop) đã được kiểm tra kỹ lưỡng.
+
+## 4. Kết luận
+Bộ test case hiện tại đảm bảo chất lượng mã nguồn tốt với độ bao phủ chỉ dẫn (Instructions) đạt 100%. Mã nguồn có độ tin cậy cao và sẵn sàng để triển khai hoặc phát triển tiếp.
+<img width="1919" height="1019" alt="Ảnh chụp màn hình 2026-01-19 173552" src="https://github.com/user-attachments/assets/3b11b250-eb9b-4ef8-b2cd-ba2ab30e52a2" />
 
 
 
